@@ -1,4 +1,147 @@
-* {
+html, body  {
     margin: 0;
     padding: 0;
+}
+
+html {
+    background-color: black;
+    color: seashell;
+    font-family: Helvetica;
+    font-size: 22px;
+    opacity: 0.9;
+    text-align: center;
+}
+
+.offer img {
+    width: 200px;
+    length: 300px;
+}
+
+.offer figure {
+    margin: 10px;
+}
+
+header {
+    background-color: black;
+    opacity: 1;
+    width: 100%;
+    position: fixed;
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+}
+
+header figure {
+    float: left;
+    margin: 0;
+}
+
+header img {
+    height: 50px;
+    margin-left: 10px;
+}
+
+header li {
+    display: inline-block;
+    text-decoration: underline;
+    margin-left: 20px;
+}
+
+nav {
+    margin-right: 10px;
+    margin-left: auto;
+}
+
+section {
+    width: 100%;
+}
+
+.introduction-background {
+    background-image: url('./resources/img-mission-background.png');
+    height: 700px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.introduction-text {
+    display: inline-block;
+    vertical-align: center;
+    z-index: 1;
+    background-color: black;
+    width: 100%;
+}
+
+.introduction-text h2 {
+    margin-top: .25em;
+    margin-bottom: .5em;
+}
+
+.introduction-text h4 {
+    margin-top: .5em;
+    margin-bottom: .25em;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.location-background {
+    background-image: url('./resources/img-locations-background.png');
+    background-size: cover;
+    height: 500px;
+    width: 90%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.locationcontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3em;
+    width: 100%;
+    flex-shrink: 1;
+}
+
+.colcontainer {
+    margin: 0;
+}
+
+.col {
+    background-color: black;
+    display: inline-block;
+    width: 300px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.col p {
+    line-height: 2.5em;
+}
+
+.location h2, h3 {
+    margin: 15px;
+}
+
+#locationcontainer {
+    align-items: center;
+}
+
+#thecontainer {
+    vertical-align: center;
+}
+
+.copyright {
+    text-align: left;
+    margin-left: 30px;
 }
